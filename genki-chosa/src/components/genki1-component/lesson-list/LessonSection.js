@@ -14,11 +14,11 @@ function LessonSection() {
 
 			<div className="review-btns">
 				<Link to="/vocabulary">
-					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">Vocabulary <i className="fas fa-feather-alt" /> </Button>
+					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">Vocabulary <i className="fab fa-buffer" /> </Button>
 				</Link>
 
 				<Link to="grammar">
-					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">Grammar <i className="fas fa-feather-alt" /> </Button>
+					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">Grammar <i className="fas fa-quote-right" /> </Button>
 				</Link>
 
 			</div>

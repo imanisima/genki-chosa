@@ -14,11 +14,11 @@ function Welcome() {
             
 			<div className="welcome-btns">
 				<Link to="/genki1">
-					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">GENKI 1 <i className="fas fa-feather-alt"/> </Button>
+					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">GENKI 1 <i className="fas fa-book"/> </Button>
 				</Link>
 
 				<Link to="/genki2">
-					<Button className="btns" buttonStyle="btn--outline" button-size="btn--large">GENKI 2 <i className="fas fa-feather-alt"/> </Button>
+					<Button className="btns" buttonStyle="btn--outline" button-size="btn--large">GENKI 2 <i className="fas fa-book"/> </Button>
 				</Link>
 
 			</div>
