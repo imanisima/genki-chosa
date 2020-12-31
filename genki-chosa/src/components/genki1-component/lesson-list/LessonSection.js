@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../../button-component/Button';
 
-import './ReviewSection.css';
+import './LessonSection.css';
 
-function ReviewSection() {
+function LessonSection() {
 
 	return (
 		<div className="review-container">
@@ -27,4 +27,4 @@ function ReviewSection() {
 	);
 }
 
-export default ReviewSection;
+export default LessonSection;
