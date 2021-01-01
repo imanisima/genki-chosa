@@ -5,6 +5,9 @@ import CardItem from '../../card-component/CardItem';
 function Cards() {
   return (
     <div className='cards'>
+      <h2>GENKI I</h2>
+      <p align="center">Choose a lesson from below.</p>
+
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>

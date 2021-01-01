@@ -8,17 +8,12 @@ function LessonSection() {
 
 	return (
 		<div className="review-container">
-			<h2>Choose a Focus</h2>
 
-			<p>What area would you like to focus on?</p>
+			<p>This page isn't up yet!</p>
 
 			<div className="review-btns">
-				<Link to="/vocabulary">
-					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">Vocabulary <i className="fas fa-feather-alt" /> </Button>
-				</Link>
-
-				<Link to="grammar">
-					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">Grammar <i className="fas fa-feather-alt" /> </Button>
+				<Link to="/">
+					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">Return Home <i className="fas fa-chevron-circle-right" /> </Button>
 				</Link>
 
 			</div>

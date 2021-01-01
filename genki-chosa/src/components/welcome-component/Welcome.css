@@ -1,7 +1,8 @@
     .welcome-container {
-    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    background: url('../../css-images/proverb.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
+    opacity: 0.72;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,15 +11,22 @@
     object-fit: contain;
   }
   
-  .welcome-container > h1 {
-    color: #fff;
+  .welcome-container > h1, h2 {
+    color: #220901;
     font-size: 100px;
     margin-top: -100px;
+  }
+
+  .welcome-container > small {
+    color: #220901;
+    font-size: 32px;
+    font-weight: bold;
   }
   
   .welcome-container > p {
     margin-top: 8px;
-    color: #fff;
+    color: #242424;
+    font-weight: bold;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
