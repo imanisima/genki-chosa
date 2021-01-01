@@ -1,5 +1,7 @@
 .contact-container {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    background: linear-gradient(307deg, rgba(131,58,180,1) 0%, rgba(131,53,153,1) 0%, rgba(253,29,29,0.9009803750601804) 12%, rgba(214,37,68,1) 56%, rgba(252,176,69,1) 100%);
+    opacity: 0.95;
     height: 100vh;
     width: 100%;
     display: flex;
