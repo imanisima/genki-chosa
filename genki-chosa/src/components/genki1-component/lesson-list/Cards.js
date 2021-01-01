@@ -5,41 +5,46 @@ import CardItem from '../../card-component/CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      {/* <h2>Check out these EPIC Destinations!</h2> */}
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              src='images/genki1/shrine-writing.jpg'
+              text='Japanese Writing System: Hiragana & Katakana'
+              label='Lesson 0'
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/genki1/friends.jpg'
+              text='Introductions and time.'
+              label='Lesson 1'
+              path='/services'
+            />
+            <CardItem
+              src='images/genki1/tokyo-chef.jpg'
+              text='Shopping and eating at a restaurant.'
+              label='Lesson 2'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src='images/genki1/akihabara.jpg'
+              text='Going out with friends.'
+              label='Lesson 3'
               path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='images/genki1/hiroshima-castle.jpg'
+              text='Talking about the past.'
+              label='Lesson 4'
               path='/sign-up'
+            />
+            <CardItem
+              src='images/genki1/osaka-trip.jpg'
+              text='Describing experiences in past and present.'
+              label='Lesson 5'
+              path='/services'
             />
           </ul>
         </div>
