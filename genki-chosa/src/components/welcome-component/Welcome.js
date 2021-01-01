@@ -11,7 +11,6 @@ function Welcome() {
 		<div className="welcome-container">
 			<h2>Genki Chōsa</h2>
 			<small>List of concepts from げんき 3rd Edition series.</small>
-			{/* <p>Choose the volume you want to see. </p> */}
 
 			<div className="welcome-btns">
 				<Link to="/genki1">

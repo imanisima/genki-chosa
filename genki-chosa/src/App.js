@@ -25,6 +25,8 @@ function App() {
 					{/* genki 1 */}
 					<Route path="/genki1" component={Genki1} />
 					<Route path="/lesson-0" component={Lesson0} />
+					<Route path="/hiragana" component={Lesson0} />
+					<Route path="/katakana" component={Lesson0} />
 
 
 					<Route path="/genki2" component={Genki2} />

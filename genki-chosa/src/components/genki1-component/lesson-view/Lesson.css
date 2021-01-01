@@ -1,10 +1,10 @@
-.review-container {
-    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
-    background: linear-gradient(307deg, rgba(131,58,180,1) 0%, rgba(131,53,153,1) 0%, rgba(253,29,29,0.9009803750601804) 12%, rgba(214,37,68,1) 56%, rgba(252,176,69,1) 100%);
-    opacity: 0.95;
+.lesson-container {
+    /* background: url('../../css-images/proverb.jpg') center center/cover no-repeat; */
     height: 100vh;
     width: 100%;
+    opacity: 0.7;
     display: flex;
+    padding: 4rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -12,46 +12,49 @@
     object-fit: contain;
   }
   
-  .review-container > h1 {
-    color: #fff;
-    font-size: 100px;
-    margin-top: -100px;
+  .lesson-container > h1, h2 {
+    text-align: center;
+    margin-top: -50px;
+    padding-top: 80px;
+  }
+
+  .lesson-container > small {
+    color: #220901;
+    font-size: 32px;
+    font-weight: bold;
   }
   
-  .review-container > p {
+  .lesson-container > p {
     margin-top: 8px;
-    color: #fff;
+    color: #242424;
+    font-weight: bold;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
   
-  .review-btns {
+  .lesson-btns {
     margin-top: 32px;
   }
   
-  .review-btns .btn {
+  .lesson-btns .btn {
     margin: 6px;
   }
   
-  .fa-play-circle {
-    margin-left: 4px;
-  }
-  
   @media screen and (max-width: 960px) {
-    .review-container > h1 {
+    .lesson-container > h1 {
       font-size: 70px;
       margin-top: -150px;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .review-container > h1 {
+    .lesson-container > h1 {
       font-size: 50px;
       margin-top: -100px;
     }
   
-    .review-container > p {
+    .lesson-container > p {
       font-size: 30px;
     }
 
