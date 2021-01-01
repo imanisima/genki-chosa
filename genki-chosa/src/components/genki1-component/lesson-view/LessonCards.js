@@ -15,19 +15,19 @@ function Cards() {
               src='images/genki1/shrine-writing.jpg'
               text='Japanese Writing System: Hiragana & Katakana'
               label='Lesson 0'
-              path='/services'
+              path='lesson-0'
             />
             <CardItem
               src='images/genki1/friends.jpg'
               text='Introductions and time.'
               label='Lesson 1'
-              path='/services'
+              path='/genk1/lesson-1'
             />
             <CardItem
               src='images/genki1/tokyo-chef.jpg'
               text='Shopping and eating at a restaurant.'
               label='Lesson 2'
-              path='/services'
+              path='/genk1/lesson-2'
             />
           </ul>
           <ul className='cards__items'>
@@ -35,19 +35,19 @@ function Cards() {
               src='images/genki1/akihabara.jpg'
               text='Going out with friends.'
               label='Lesson 3'
-              path='/products'
+              path='/genk1/lesson-3'
             />
             <CardItem
               src='images/genki1/hiroshima-castle.jpg'
               text='Talking about the past.'
               label='Lesson 4'
-              path='/sign-up'
+              path='/genk1/lesson-4'
             />
             <CardItem
               src='images/genki1/osaka-trip.jpg'
               text='Describing experiences in past and present.'
               label='Lesson 5'
-              path='/services'
+              path='/genk1/lesson-5'
             />
           </ul>
         </div>
