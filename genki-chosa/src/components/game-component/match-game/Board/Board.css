@@ -1,0 +1,12 @@
+
+.Board {
+    height: 780px;
+    width: 780px;
+    padding: 8px 10px 20px 25px;
+    background-color: #C09891;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    outline: 1px ridge;
+  }

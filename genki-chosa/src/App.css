@@ -19,10 +19,10 @@
   .genki1,
   .genki2 {
     display: flex;
-    background: linear-gradient(307deg, rgba(131,58,180,1) 0%, rgba(131,53,153,1) 0%, rgba(253,29,29,0.9009803750601804) 12%, rgba(214,37,68,1) 56%, rgba(252,176,69,1) 100%);
-    /* background-color:#F1E8B8; */
+    padding: 10px;
+    background: url("./assets/images/mt-hood.jpg") center center/cover no-repeat;
     box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
-    height: 90vh;
+    height: 100%;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
