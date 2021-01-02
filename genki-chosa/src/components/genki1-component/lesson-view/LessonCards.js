@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../card-component/Cards.css';
-import CardItem from '../../card-component/CardItem';
+import '../../lesson-view-component/Cards.css';
+import CardItem from '../../lesson-view-component/CardItem';
 
 function Cards() {
   return (

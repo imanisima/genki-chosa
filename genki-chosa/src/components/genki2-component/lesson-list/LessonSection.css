@@ -1,7 +1,7 @@
 .review-container {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-    background: linear-gradient(288deg, rgba(244,243,249,1) 0%, rgba(184,183,216,1) 0%, rgba(255,255,255,1) 56%, rgba(242,242,242,1) 100%);
-    opacity: 0.95;
+    background: url("../../../assets/mt-hood.jpg") center center/cover no-repeat;
+    opacity: 0.75;
     height: 100vh;
     width: 100%;
     display: flex;

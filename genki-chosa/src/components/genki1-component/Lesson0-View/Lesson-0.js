@@ -13,7 +13,7 @@ function Lesson0() {
 
 
 			<div className="lesson-btns">
-				<Link to="/game">
+				<Link to="/hiragana">
 					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">Hiragana (あ) </Button>
 				</Link>
 

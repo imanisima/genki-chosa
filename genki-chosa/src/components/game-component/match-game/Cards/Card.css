@@ -1,0 +1,14 @@
+.Card{
+    flex: 1
+  }
+  
+  .Card:hover{
+    cursor: grab;
+    transform: scale(1.1);
+    outline: 1px solid black;
+  }
+  
+  .Card img{
+    width: 100px;
+    height: 100px;
+  }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from '../button-component/Button';
+import { Button } from '../../button-component/Button';
 import './Quiz.css';
 
 export default function Quiz() {

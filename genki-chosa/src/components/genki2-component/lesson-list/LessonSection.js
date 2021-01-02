@@ -13,7 +13,7 @@ function LessonSection() {
 
 			<div className="review-btns">
 				<Link to="/">
-					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">Return Home <i className="fas fa-chevron-circle-right" /> </Button>
+					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">Return Home &nbsp; <i className="fas fa-chevron-circle-right" /> </Button>
 				</Link>
 
 			</div>

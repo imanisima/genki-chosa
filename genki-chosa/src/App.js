@@ -8,6 +8,7 @@ import Footer from './components/footer-component/Footer';
 
 // genk1 - links
 import Lesson0 from './components/genki1-component/Lesson0-View/Lesson-0';
+import HiraganaView from './components/genki1-component/Lesson0-View/Hiragana-View';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
@@ -25,7 +26,7 @@ function App() {
 					{/* genki 1 */}
 					<Route path="/genki1" component={Genki1} />
 					<Route path="/lesson-0" component={Lesson0} />
-					<Route path="/hiragana" component={Lesson0} />
+					<Route path="/hiragana" component={HiraganaView} />
 					<Route path="/katakana" component={Lesson0} />
 
 
