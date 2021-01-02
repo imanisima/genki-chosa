@@ -15,17 +15,15 @@ export default MatchView;
 function buildCards() {
   let id = 0
   const images = {
-    angular: 'images/genki1/friends.jpg',
-    css: 'images/genki1/akihabara.jpg',
-    html: 'images/genki1/train-station.jpg',
-    go: 'images/genki1/shrine-writing.jpg',
-    rail: 'images/genki1/tokyo-chef.jpg',
-    react: 'images/genki1/hiroshima-castle.jpg',
-    scala: 'images/genki1/osaka-trip.jpg', 
-    vue: 'images/genki1/hanabi.jpg',
+    friends: 'images/genki1/friends.jpg',
+    akihabara: 'images/genki1/akihabara.jpg',
+    train: 'images/genki1/train-station.jpg',
+    shrine: 'images/genki1/shrine-writing.jpg',
+    chef: 'images/genki1/tokyo-chef.jpg',
+    castle: 'images/genki1/hiroshima-castle.jpg',
+    osaka: 'images/genki1/osaka-trip.jpg', 
+    hanabi: 'images/genki1/hanabi.jpg',
   }
-
-  // const images = {angular, css, go, html, rail, react, scala, vue}
 
   const cards = Object.keys(images).reduce((result, item) => {
     const getCard = () => ({

@@ -1,13 +1,12 @@
 .cards {
   padding: 4rem;
   background: url("../../assets/mt-hood.jpg") center center/cover no-repeat;
-  /* background: #fff; */
 }
 
 .cards > h2 {
   text-align: center;
   margin-top: -50px;
-  padding-top: 80px;
+  /* padding-top: 80px; */
   color: #220901;
   opacity: 0.7;
 }
@@ -113,6 +112,7 @@
   color: #242424;
   font-size: 18px;
   line-height: 24px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 1200px) {

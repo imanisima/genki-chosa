@@ -19,9 +19,10 @@
   .genki1,
   .genki2 {
     display: flex;
+    padding: 10px;
     background: url("./assets/mt-hood.jpg") center center/cover no-repeat;
     box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
-    height: 90vh;
+    height: 100%;
     align-items: center;
     justify-content: center;
     font-size: 3rem;

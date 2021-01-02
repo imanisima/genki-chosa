@@ -2,24 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../../button-component/Button';
 
-import './../Lesson-View/Lesson.css';
+import '../Lesson.css';
 
 function Lesson0() {
 
 	return (
-		<div className="lesson-container">
+		<div className="lesson-container fill-page">
             <h2>Lesson 0: The Japanese Writing System</h2>
-            <p>Which writing system would you like to review?</p>
+            <p>Match the hiragana to it's katakana!</p>
 
 
 			<div className="lesson-btns">
-				<Link to="/hiragana">
-					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">Hiragana (あ) </Button>
+				<Link to="/kana-match">
+					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">スタート <i className="fas fa-exclamation"/> </Button>
 				</Link>
 
-				<Link to="/katakana">
-					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">Katakana (ア) </Button>
-				</Link>
 			</div>
 		</div>
 	);

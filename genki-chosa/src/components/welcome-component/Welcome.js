@@ -10,7 +10,7 @@ function Welcome() {
 	return (
 		<div className="welcome-container">
 			<h2>Genki Chōsa</h2>
-			<small>List of concepts from げんき 3rd Edition series.</small>
+			<small>『List of concepts from げんき 3rd Edition series.』</small>
 
 			<div className="welcome-btns">
 				<Link to="/genki1">
