@@ -1,5 +1,5 @@
 :root {
-    --primary: #fff;
+    --primary: #F46036;
   }
   
   .btn {
@@ -30,7 +30,7 @@
     color: #242424;
     font-weight: bold;
     padding: 8px 20px;
-    border: 1px solid var(--primary);
+    border: 4px solid var(--primary);
     transition: all 0.3s ease-out;
   }
   

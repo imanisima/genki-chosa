@@ -22,7 +22,7 @@ function KanaView() {
 
 			<div className="lesson-btns">
 				<Link to="/lesson-0">
-					<Button className="btns" buttonStyle="btn--primary" button-size="btn--medium">Return Home  </Button>
+					<Button className="btns" buttonStyle="btn--primary" button-size="btn--medium">Lesson Home  </Button>
 				</Link>
 
 			</div>
