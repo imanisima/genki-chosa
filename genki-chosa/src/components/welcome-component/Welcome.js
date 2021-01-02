@@ -18,7 +18,7 @@ function Welcome() {
 				</Link>
 
 				<Link to="/genki2-home">
-					<Button className="btns" buttonStyle="btn--outline" button-size="btn--large">GENKI 2 &nbsp;<i className="fas fa-book" /> </Button>
+					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large">GENKI 2 &nbsp;<i className="fas fa-book" /> </Button>
 				</Link>
 				
 

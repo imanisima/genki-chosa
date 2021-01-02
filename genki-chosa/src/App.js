@@ -6,7 +6,9 @@ import Game from './pages/Game';
 import ContactPage from './pages/Contact-Page';
 import Footer from './components/footer-component/Footer';
 
-// genk1 - links
+/*
+GENKI I imports
+------------------*/
 import KanaContainer from './components/genki1-component/Lesson0-View/Kana-Match-Container';
 import KanaView from './components/genki1-component/Lesson0-View/Kana-View';
 

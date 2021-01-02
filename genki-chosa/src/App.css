@@ -20,7 +20,7 @@
   .genki2 {
     display: flex;
     padding: 10px;
-    background: url("./assets/mt-hood.jpg") center center/cover no-repeat;
+    background: url("./assets/images/mt-hood.jpg") center center/cover no-repeat;
     box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
     height: 100%;
     align-items: center;

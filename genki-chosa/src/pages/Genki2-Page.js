@@ -1,15 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../App.css';
-import LessonSection from '../components/genki2-component/lesson-list/LessonSection';
-import { Button } from '../components/button-component/Button';
+import DisplayGenkiII from '../components/general-view-component/Display-G2-View';
 
 function Genki2() {
 
 	return (
 		<div className="genki2">
 
-			<LessonSection />
+			<DisplayGenkiII />
 			
 		</div>
 	);

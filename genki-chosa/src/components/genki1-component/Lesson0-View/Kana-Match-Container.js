@@ -2,26 +2,48 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../../button-component/Button';
 
-import '../Lesson.css';
+import CardItem from '../../general-view-component/CardItem';
+import '../../../assets/css/Cards.css';
+import '../../../assets/css/Lesson.css';
 
 function KanaContainer() {
 
 	return (
 		<div className="lesson-container fill-page">
-            <h2>Lesson 0: The Japanese Writing System</h2>
-            <p>Match the hiragana to it's katakana!</p>
+			<div className='cards'>
+				<h3>Lesson 0: The Japanese Writing System</h3>
+				<p align="center">『Choose a method of review.』</p>
 
+				<div className='cards__container'>
+					<div className='cards__wrapper'>
+						<ul className='cards__items'>
+							<CardItem
+								src='images/genki1/shrine-writing.jpg'
+								text='『Match Hiragana (あ) to its Katakana (ア)!』'
+								label='Matching Game'
+								path='/kana-match'
+							/>
 
-			<div className="lesson-btns">
-				<Link to="/kana-match">
-					<Button className="lesson-btns" buttonStyle="btn--primary" button-size="btn--large">スタート <i className="fas fa-exclamation"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i className="fas fa-chevron-circle-right" /></Button>
-				</Link>
+							<CardItem
+								src='images/genki1/friends.jpg'
+								text='『Quiz yourself on the writing system!』'
+								label='Quiz Game'
+								path='/quiz'
+							/>
+						</ul>
+					</div>
 
-				<Link to="/genki1-home">
-					<Button className="lesson-btns" buttonStyle="btn--primary" button-size="btn--medium"><i className="fas fa-chevron-circle-left" /> &nbsp; Return Home  </Button>
-				</Link>
+					<div className="lesson-btns">
+
+						<Link to="/genki1-home">
+							<Button className="lesson-btns" buttonStyle="btn--primary" button-size="btn--medium"> Return Home  </Button>
+						</Link>
+
+					</div>
+				</div>
 
 			</div>
+
 		</div>
 	);
 }

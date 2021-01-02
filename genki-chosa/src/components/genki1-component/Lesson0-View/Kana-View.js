@@ -5,7 +5,7 @@ import MatchView from '../../game-component/match-game/MatchView';
 
 import {kanaImg} from '../../game-component/match-game/CardPairs';
 
-import '../Lesson.css';
+import '../../../assets/css/Lesson.css';
 
 function KanaView() {
 
@@ -22,7 +22,7 @@ function KanaView() {
 
 			<div className="lesson-btns">
 				<Link to="/lesson-0">
-					<Button className="btns" buttonStyle="btn--primary" button-size="btn--medium"><i className="fas fa-chevron-circle-left" /> &nbsp; Return Home  </Button>
+					<Button className="btns" buttonStyle="btn--primary" button-size="btn--medium">Return Home  </Button>
 				</Link>
 
 			</div>

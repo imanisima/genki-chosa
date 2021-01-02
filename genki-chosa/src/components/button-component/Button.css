@@ -21,12 +21,14 @@
   .btn--primary {
     background-color: var(--primary);
     color: #242424;
+    font-weight: bold;
     border: 1px solid var(--primary);
   }
   
   .btn--outline {
     background-color: transparent;
     color: #242424;
+    font-weight: bold;
     padding: 8px 20px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;

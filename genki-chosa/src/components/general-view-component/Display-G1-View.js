@@ -1,8 +1,8 @@
 import React from 'react';
-import '../general-view-component/Cards.css';
-import CardItem from '../general-view-component/CardItem';
+import '../../assets/css/Cards.css';
+import CardItem from './CardItem';
 
-function Cards() {
+function DisplayGenkiI() {
   return (
     <div className='cards'>
       <h2>GENKI I</h2>
@@ -56,4 +56,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default DisplayGenkiI;
