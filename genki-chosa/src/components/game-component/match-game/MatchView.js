@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import Board from './Board/Board';
 
-function MatchView() {
-  const cards = buildCards();
+function MatchView(props) {
+  console.log("MATCH VIEW: {imgCards}: ", props.imageCards);
+
+  const cards = buildCards(props);
+
   return (
     <div className="matchview-container">
       <Board cards={cards} />
@@ -12,25 +15,16 @@ function MatchView() {
 
 export default MatchView;
 
-function buildCards() {
+function buildCards(props) {
   let id = 0
-  const images = {
-    friends: 'images/genki1/friends.jpg',
-    akihabara: 'images/genki1/akihabara.jpg',
-    train: 'images/genki1/train-station.jpg',
-    shrine: 'images/genki1/shrine-writing.jpg',
-    chef: 'images/genki1/tokyo-chef.jpg',
-    castle: 'images/genki1/hiroshima-castle.jpg',
-    osaka: 'images/genki1/osaka-trip.jpg', 
-    hanabi: 'images/genki1/hanabi.jpg',
-  }
+  const imgCard = props.imageCards;
 
-  const cards = Object.keys(images).reduce((result, item) => {
+  const cards = Object.keys(imgCard).reduce((result, item) => {
     const getCard = () => ({
       id: id++,
       type: item,
       backImg: 'images/genki1/blossoms.jpg',
-      frontImg: images[item],
+      frontImg: imgCard[item],
       flipped: false,
     })
     return [...result, getCard(), getCard()]

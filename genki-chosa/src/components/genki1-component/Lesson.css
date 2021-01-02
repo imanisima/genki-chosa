@@ -49,6 +49,10 @@
   margin-top: 32px;
 }
 
+.btns {
+  display: inline-block;
+}
+
 .lesson-btns .btn {
   margin: 6px;
 }

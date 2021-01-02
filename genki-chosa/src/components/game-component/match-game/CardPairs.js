@@ -1,30 +1,10 @@
-exports.HiraPairs = {
-    angular: 'url to img',
-    css: 'url to img',
-    html: 'url to img',
-    go: 'url to img',
-    rail: 'url to img',
-    react: 'url to img',
-    scala: 'url to img',
-    vue: 'url to img',
-}
-
-
-// exports.hira_pairs = [
-//     { 
-
-//     }
-
-
-
-// ];
-
-
-// exports.kata_pairs = [
-//     { 
-
-//     }
-
-
-
-// ];
+exports.kanaImg = {
+    friends: 'images/genki1/friends.jpg',
+    akihabara: 'images/genki1/akihabara.jpg',
+    train: 'images/genki1/train-station.jpg',
+    shrine: 'images/genki1/shrine-writing.jpg',
+    chef: 'images/genki1/tokyo-chef.jpg',
+    castle: 'images/genki1/hiroshima-castle.jpg',
+    osaka: 'images/genki1/osaka-trip.jpg', 
+    hanabi: 'images/genki1/hanabi.jpg',
+  }

@@ -14,7 +14,7 @@ function Contact() {
 			<div className="Contact-btns">
 				<Link to="/github-issues"
 					target='_blank'>
-					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large"><i className="fas fa-exclamation-triangle" /> SUBMIT AN ISSUE <i className="fas fa-exclamation-triangle" /> </Button>
+					<Button className="btns" buttonStyle="btn--primary" button-size="btn--large"> SUBMIT AN ISSUE &nbsp;<i className="fab fa-github" /> </Button>
 				</Link>
 
 			</div>

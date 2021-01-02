@@ -54,7 +54,7 @@ export default function Quiz() {
 						</div>
 						<div className='answer-section'>
 							{questions[currentQuestion].answerOptions.map((answerOption) => (
-								<button class="question-btn" onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+								<button className="question-btn" onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
 							))}
 						</div>
 					</>
