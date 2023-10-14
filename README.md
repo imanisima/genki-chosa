@@ -11,13 +11,17 @@
 
 ### 『About』- See the [WIKI](https://github.com/Imanisima/genki-chosa/wiki) for more documentation.
 ---
-```Genki Chosa``` (Genki Study) is a FREE Japanese review application for the web. It is a static site so there is no database or syncing needed. It has been developed to interactively review key grammar points and vocabulary from [Genki (げんき): 3rd Edition](https://omgjapan.com/products/genki-1-an-integrated-course-in-elementary-japanese-textbook-revised-3rd-edition).
+```Genki Chosa``` (Genki Study) 
+
+A FREE Japanese review application for the web. It is a static site so there is no database or syncing needed. It has been developed to interactively review key grammar points and vocabulary from [Genki (げんき): 3rd Edition](https://omgjapan.com/products/genki-1-an-integrated-course-in-elementary-japanese-textbook-revised-3rd-edition).
 
 ```Home Page Preview ```
 ![Home Page Demo](genki-chosa/screenshots/home.gif)
 
 ```View All Lessons Preview ```
 ![View All Lessons Page Demo](genki-chosa/screenshots/lesson-view.gif)
+
+[View Live](https://genki-chosa.vercel.app)
 
 ### 『Key Features / To-Do』
 ---
@@ -33,14 +37,6 @@
     - [ ] __Sentence Maker__: Practice creating sentences using given grammar points
 
 - [ ] __Dictionary__: Integrated Japanese dictionary
-
-### 『Stretch Goals』
----
-- [ ] Notepad for writing practice
-- [ ] Extract texts for reading practice
-    - [ ] Show definitions for unknown words (pop-over ?)
-    - [ ] Add unknown words to a deck
-    - [ ] Export deck
 
 ### 『Tools』
 ---
