@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d9fe85e0.css",
+    "main.js": "/static/js/main.6a911a66.js",
+    "static/media/mt-hood.jpg": "/static/media/mt-hood.6f93943f71dca032ea17.jpg",
+    "static/media/proverb.jpg": "/static/media/proverb.5fc4b350ae6042142d28.jpg",
+    "index.html": "/index.html",
+    "main.d9fe85e0.css.map": "/static/css/main.d9fe85e0.css.map",
+    "main.6a911a66.js.map": "/static/js/main.6a911a66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9fe85e0.css",
+    "static/js/main.6a911a66.js"
+  ]
+}
